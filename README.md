@@ -8,7 +8,7 @@ An API wrapper library for opensea api.
 pip3 install opensea
 ```
 
-## Useage
+## Usage
 
 ```python
 form opensea import Assets
