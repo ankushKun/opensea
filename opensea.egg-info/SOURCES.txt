@@ -1,0 +1,9 @@
+README.md
+setup.py
+opensea/Opensea.py
+opensea/__init__.py
+opensea.egg-info/PKG-INFO
+opensea.egg-info/SOURCES.txt
+opensea.egg-info/dependency_links.txt
+opensea.egg-info/requires.txt
+opensea.egg-info/top_level.txt

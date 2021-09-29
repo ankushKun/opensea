@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: opensea
+Version: 0.1.0
+Summary: wrapper library for opensea api
+Home-page: https://opensea.readthedocs.io/
+Author: Ankush Singh
+Author-email: ankush4singh@gmail.com.com
+License: MIT
+Description: # Opensea API
+        
+        An API wrapper library for opensea api.
+        
+        ## Installation
+        
+        ```python
+        pip3 install opensea
+        ```
+        
+        ## Useage
+        
+        ```python
+        form opensea import Assets
+        assets = Assets()
+        
+        # This will return a list of assets which you can iterate and get the needed data
+        asset_list = assets.get_assets(limit=10,verified_only=False)
+        
+        asset = asset_list[0] # Get the first asset obejct from the list
+        
+        print(asset.name)
+        print(asset.description)
+        print(asset.asset_url)
+        print(asset.get_floor_price()) # Floor price of the collection
+        ```
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
