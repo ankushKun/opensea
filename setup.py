@@ -19,7 +19,7 @@ setup(
     description="wrapper library for opensea api",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://opensea.readthedocs.io/",
+    # url="https://opensea.readthedocs.io/", # TASKETE KUDASAI :(
     author="Ankush Singh",
     author_email="ankush4singh@gmail.com.com",
     license="MIT",

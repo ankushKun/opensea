@@ -6,10 +6,13 @@
 Welcome to opensea's documentation!
 ===================================
 
-.. toctree::
+.. toctree:: 
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Python API:
 
+      source/api/assets
+      docs/source/api/assets
+      assets
 
 
 Indices and tables
