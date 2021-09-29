@@ -14,5 +14,4 @@ VERIFIED COLLECTION : {asset.is_verified}
 CURRENT PRICE : {asset.get_current_price()}
 FLOOR PRICE : {asset.get_floor_price()}
 AVERAGE PRICE : {asset.get_average_price()}"""
-
     print(details)
