@@ -11,7 +11,7 @@ pip3 install opensea
 ## Usage
 
 ```python
-form opensea import Assets
+from opensea import Assets
 assets = Assets()
 
 # This will return a list of assets which you can iterate and get the needed data
@@ -25,7 +25,7 @@ print(asset.asset_url)
 print(asset.get_floor_price()) # Floor price of the collection
 ```
 
-Example\
+Example
 <img src="images/sample_code.png" alt="sample code" width="600px">
 
 <img src="images/output.png" alt="output" width="600px">
