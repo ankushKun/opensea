@@ -14,7 +14,7 @@ rm -rf opensea.egg-info
 echo "
 building sdist and bdist"
 sleep 2
-python setup.py sdist bdist
+python3 setup.py sdist bdist
 
 echo "
 checking for errors"
