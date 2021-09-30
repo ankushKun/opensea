@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+
+echo "Increment version before running this script"
+sleep 2
+
+echo "building sdist and bdist"
+sleep 2
+python setup.py sdist bdist
+
+echo "checking for errors"
+sleep 2
+twine check dist/*
+
+echo "uploading to PyPi"
+sleep 2
+twine upload dist/*
+
+
+echo "pushing changes to github"
+sleep 2
+git add .
+git commit -m $1
+git push
