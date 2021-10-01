@@ -11,7 +11,7 @@ pip3 install opensea
 ## Usage
 
 ```python
-form opensea import Assets
+from opensea import Assets
 assets = Assets()
 
 # This will return a list of assets which you can iterate and get the needed data
