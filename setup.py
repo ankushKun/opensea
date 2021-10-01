@@ -21,7 +21,7 @@ setup(
     long_description_content_type="text/markdown",
     # url="https://opensea.readthedocs.io/", # TASKETE KUDASAI :(
     author="Ankush Singh",
-    author_email="ankush4singh@gmail.com.com",
+    author_email="ankush4singh@gmail.com",
     license="MIT",
     classifiers=[
         "Intended Audience :: Developers",
