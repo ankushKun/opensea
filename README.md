@@ -25,9 +25,10 @@ print(asset.asset_url)
 print(asset.get_floor_price()) # Floor price of the collection
 ```
 
-Example: \
+### Example: 
 <p align="center">
 <img src="images/sample_code.png" alt="sample code" width="600px">
+<br></br>
 <img src="images/output.png" alt="output" width="600px">
 </p>
 
