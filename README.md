@@ -4,7 +4,7 @@ An API wrapper library for opensea api.
 
 ## Installation
 
-```python
+```bash
 pip3 install opensea
 ```
 
