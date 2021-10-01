@@ -27,8 +27,10 @@ print(asset.get_floor_price()) # Floor price of the collection
 
 ### Example: 
 <p align="center">
+#### sample code :
 <img src="images/sample_code.png" alt="sample code" width="600px">
 <br></br>
+#### output :
 <img src="images/output.png" alt="output" width="600px">
 </p>
 
