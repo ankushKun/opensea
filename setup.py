@@ -15,7 +15,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="opensea",
-    version="0.1.4",
+    version="0.1.5",
     description="wrapper library for opensea api",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -29,7 +29,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent"
     ],
-    packages=["opensea"],
+    packages=find_packages(),
     include_package_data=True,
     install_requires=["requests"]
 )
