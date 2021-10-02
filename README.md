@@ -11,11 +11,10 @@ pip3 install opensea
 ## Usage
 
 ```python
-from opensea import Assets
-assets = Assets()
+from opensea import get_assets
 
 # This will return a list of assets which you can iterate and get the needed data
-asset_list = assets.get_assets(limit=10,verified_only=False)
+asset_list = get_assets(limit=10, verified_only=False)
 
 asset = asset_list[0] # Get the first asset obejct from the list
 

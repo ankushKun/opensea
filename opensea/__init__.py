@@ -1,2 +1,3 @@
 
-from opensea.Opensea import Assets
+from opensea.assets import get_assets
+from opensea.models.asset import Asset
