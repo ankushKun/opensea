@@ -37,7 +37,7 @@ bundle = bundles_list[0] # Get the first asset obejct from the list
 print(bundle.slug)
 print(bundle.assets[0].name)
 ```
-
+<!--
 ### Example: 
 <p align="center">
 <img src="images/sample_code.png" alt="sample code" width="600px">
