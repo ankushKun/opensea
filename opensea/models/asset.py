@@ -1,3 +1,6 @@
+from opensea.models.account import Account
+
+
 class Asset:
     def __init__(self, json_data):
         """
@@ -19,6 +22,9 @@ class Asset:
         self.collection_slug = json_data["collection"]["slug"]
         self.verification_status = json_data["collection"]["safelist_request_status"]
         self.is_verified = json_data["collection"]["safelist_request_status"] == "verified"
+
+        # OWNER DETAILS
+        self.owner = Account(json_data["owner"])
 
         self.__ASSET_API_URL = f"https://api.opensea.io/api/v1/asset/{self.contract_address}/{self.token_id}"
 

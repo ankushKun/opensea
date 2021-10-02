@@ -1,3 +1,6 @@
+from typing import List, Union
+from requests.models import Response
+
 from opensea.common import get_opensea
 from opensea.models.asset import Asset
 
@@ -9,7 +12,7 @@ def get_assets(
     limit: int = 10,
     offset: int = 0,
     verified_only: bool = False,
-):
+) -> Union[List[Asset], Response]:
     """
     Retrieves NFT assets from opensea.io.
 
@@ -45,5 +48,7 @@ def get_assets(
         assets = [Asset(i) for i in response["assets"]]
         if verified_only:
             assets = [i for i in assets if i.is_verified]
+
+        return assets
 
     return response
