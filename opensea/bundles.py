@@ -29,7 +29,7 @@ def get_bundles(
         "limit": limit,
     }
 
-    response = get_opensea("bundles", kwargs=api_parameters)
+    response = get_opensea("bundles", **api_parameters)
     if isinstance(response, dict):
         return [Bundle(i) for i in response["bundles"]]
 

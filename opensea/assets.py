@@ -43,7 +43,7 @@ def get_assets(
         "limit": limit,
     }
 
-    response = get_opensea("assets", kwargs=api_parameters)
+    response = get_opensea("assets", **api_parameters)
     if isinstance(response, dict):
         assets = [Asset(i) for i in response["assets"]]
         if verified_only:

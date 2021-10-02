@@ -1,5 +1,5 @@
 # Always prefer setuptools over distutils
-from setuptools import setup
+from setuptools import setup, find_packages
 
 # To use a consistent encoding
 from codecs import open
@@ -29,7 +29,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent"
     ],
-    packages=["opensea"],
+    packages=find_packages(),
     include_package_data=True,
     install_requires=["requests"]
 )
