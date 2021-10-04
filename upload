@@ -12,7 +12,7 @@ rm -rf build
 rm -rf opensea.egg-info
 
 echo "
-building sdist and bdist"
+building sdist and bdist_wheel"
 sleep 2
 python3 setup.py sdist bdist_wheel
 

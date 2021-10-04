@@ -1,4 +1,5 @@
 from opensea.models.account import Account
+from requests import request
 
 
 class Asset:
