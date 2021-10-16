@@ -45,7 +45,7 @@ def get_assets(
         "order_direction": order_direction,
         "offset": offset,
         "limit": limit,
-        "collection
+        "collection": collection
     }
 
     response = get_opensea("assets", **api_parameters)
