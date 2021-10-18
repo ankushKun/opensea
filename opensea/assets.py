@@ -36,7 +36,7 @@ def get_assets(
     :type verified_only: bool
     
     :param collection: Filters NFT assets that belong to a specific collection.
-    :type verified_only: bool
+    :type collection: str
     """
 
     api_parameters = {
