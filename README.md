@@ -39,3 +39,16 @@ bundle = bundles_list[0] # Get the first asset obejct from the list
 print(bundle.slug)
 print(bundle.assets[0].name)
 ```
+
+Retrieving stats from specific collection:
+
+```python
+from opensea import get_collection_stats
+
+# This will return a CollectionStats Object
+stats = get_collection_stats(collection="doodles-official")
+
+print(stats.count)
+print(stats.num_owners)
+print(stats.floor_price)
+```
