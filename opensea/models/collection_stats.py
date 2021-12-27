@@ -19,5 +19,5 @@ class CollectionStats:
         self.total_volume = json_data["stats"]["total_volume"]
         self.total_sales = json_data["stats"]["total_sales"]
         self.average_price = json_data["stats"]["average_price"]
-        self.floor_price = json_data["stats"]["average_price"]
+        self.floor_price = json_data["stats"]["floor_price"]
 
