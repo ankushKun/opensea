@@ -1,7 +1,7 @@
 from typing import Union, List
 from requests.models import Response
 
-from opensea.common_get_url import get_opensea_url
+from opensea.common import get_opensea_url
 from opensea.models.collection_stats import CollectionStats
 
 
